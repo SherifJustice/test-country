@@ -1,0 +1,16 @@
+.sidebar {
+	grid-column: -1 / -2;
+	text-align: center;
+	grid-row: 2 / -2;
+	align-items: center;
+	border: 0.3rem solid blue;
+	border-radius: 1rem;
+	padding: 1rem;
+	transition: ease-in 0.4s;
+	&:hover {
+		// margin: 1rem;
+		transition: ease-in 0.4s;
+		transform: translate(-0.2rem, -0.2rem);
+		box-shadow: 0.2rem 0.2rem 2rem blue;
+	}
+}

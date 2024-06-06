@@ -1,0 +1,42 @@
+.country {
+	display: grid;
+	margin: 0 auto;
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 65rem);
+	grid-gap: 2rem;
+	&__flag {
+		display: grid;
+		grid-row: 1 / 2;
+		grid-column: 1 / 2;
+		justify-self: start;
+		align-self: auto;
+		&-img {
+			width: 60rem;
+			height: 42rem;
+		}
+	}
+	&__main {
+		display: grid;
+		grid-row: 2 / 3;
+		grid-column: 1 / 2;
+	}
+	&__map {
+		display: grid;
+		grid-row: 2 / 3;
+		grid-column: 2 / 3;
+		justify-self: center;
+		align-self: center;
+		&-img {
+			width: 50rem;
+			height: 50rem;
+		}
+	}
+	&__details {
+		display: grid;
+		grid-row: 1 / 2;
+		grid-column: 2 / 3;
+		grid-gap: 2rem;
+	}
+}

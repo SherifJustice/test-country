@@ -1,0 +1,14 @@
+.footer {
+	grid-column: 1 / -1;
+	text-align: center;
+	border: 0.3rem solid yellowgreen;
+	border-radius: 1rem;
+	padding: 1rem;
+	transition: ease-in 0.4s;
+	&:hover {
+		// margin: 1rem;
+		transition: ease-in 0.4s;
+		transform: translate(-0.3rem, 0.4rem);
+		box-shadow: 0.2rem 0.2rem 2rem yellowgreen;
+	}
+}

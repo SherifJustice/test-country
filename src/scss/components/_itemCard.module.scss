@@ -1,0 +1,20 @@
+.card {
+	/* Добавляем тень, чтобы создать эффект "карточки" */
+	box-shadow: 0 0.4rem 0.8rem 0 rgba(blueviolet, 0.3);
+	transition: 0.3s;
+	border-radius: 0.5rem;
+}
+
+/* При наведении мыши, тень будет гуще */
+.card:hover {
+	box-shadow: 0 0.8rem 1.6rem 0 rgba(blueviolet, 0.5);
+}
+
+/* Добавим поля внутри контейнера карточки */
+.container-card {
+	padding: 0.2rem 1.6rem;
+}
+
+img {
+	border-radius: 0.5rem 0.5rem 0 0;
+}

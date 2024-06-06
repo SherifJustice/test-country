@@ -1,0 +1,22 @@
+.content {
+	grid-column: 1 / -2;
+	grid-row: 2 / -2;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2rem;
+	// align-items: center;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+	border: 0.3rem solid blueviolet;
+	border-radius: 1rem;
+	padding: 3rem;
+	transition: ease-in 0.4s;
+	&:hover {
+		// margin: 1rem;
+		transition: ease-in 0.4s;
+		transform: translate(-0.2rem, -0.2rem);
+		box-shadow: 0.2rem 0.2rem 2rem blueviolet;
+	}
+}
